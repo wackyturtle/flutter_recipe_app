@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
 class RecipeListItem extends StatelessWidget {
@@ -36,7 +37,7 @@ class RecipeListItem extends StatelessWidget {
           ),
           Text(
             "Have you ever made your own $title? Once you've tried a homemade Coffee, you'll never go back.",
-            style: TextStyle(fontSize: 12)
+            style: TextStyle(color: Colors.grey ,fontSize: 12)
           )
         ],
       ),
